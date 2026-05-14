@@ -28,7 +28,7 @@ public class Node<T> {
         }
     }
 
-    Node<T> search(T searchValue) {
+    Node<T> search(T searchValue) { //Solo funciona para int, arreglar luego
 
         if(this.data.equals(searchValue)) { //Si el dato del nodo actual es el mismo que el dato ingresado, verdadero
             return this;
